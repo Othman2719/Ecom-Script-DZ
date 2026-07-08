@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USB كولشي فـ - متجر الكتروني للتسوق</title>
+  <meta name="description"
+    content="اكتشف تشكيلتنا الحصرية. توصيل سريع، الدفع عند الاستلام وجودة ممتازة مضمونة." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kolshi-f-usb.pages.dev/" />
+  <meta property="og:title" content="USB كولشي فـ" />
+  <meta property="og:description"
+    content="استفد من عروضنا الحصرية. توصيل سريع والدفع عند الاستلام في كل مكان." />
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=1200" />
+  <meta property="og:site_name" content="USB كولشي فـ" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://kolshi-f-usb.pages.dev/" />
+  <meta name="twitter:title" content="USB كولشي فـ" />
+  <meta name="twitter:description" content="توصيل سريع والدفع عند الاستلام." />
+  <meta name="twitter:image"
+    content="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=1200" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://blogger.googleusercontent.com" crossorigin />
+
+  <!-- Preload the critical LCP featured image -->
+  <link rel="preload" as="image" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSi7bJcBkzia8MviCzfV_0HYzvMzKS0a6yG5z9HtK3gVeeZrjubxGpNsFZyS6COiUUT3fYKooyG2lXm8RQ9m91_pcB6JDxdJ1Uyq-hibe2FC5pAG8Dxlc0tTxLbgu0OwvFI0ndJBM4uQDiUOAK7FqKt6vHNyY1kKjTcDaBcGGeecJngkPZ6L3c3BeC98dp/w800/IM%202.webp" fetchpriority="high">
+
+  <!-- Google Fonts: non-render-blocking -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" />
+  </noscript>
+
+  <!-- Font Awesome: non-render-blocking -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print"
+    onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </noscript>
+
+  <!-- UTM Capture: Must run BEFORE SPA redirect to avoid losing params -->
+  <script type="text/javascript">
+    (function () {
+      try {
+        var search = window.location.search;
+        if (!search && window.location.href.indexOf('/?/') !== -1) {
+          var raw = window.location.href.split('/?/')[1] || '';
+          var qIdx = raw.indexOf('&');
+          if (qIdx !== -1) search = '?' + raw.substring(qIdx + 1);
+        }
+        var params = new URLSearchParams(search);
+        var utms = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+        utms.forEach(function (k) { if (params.get(k)) sessionStorage.setItem(k, params.get(k)); });
+      } catch (e) { }
+    })();
+  </script>
+
+
+  <!-- Meta Pixel: delayed 3s to avoid blocking TBT/LCP measurements -->
+  <script>
+    setTimeout(function () {
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+          n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1111111111111111111111');
+      fbq('track', 'PageView');
+    }, 3000);
+  </script>
+  <!-- End Meta Pixel Code -->
+
+</head>
+
+<body>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1111111111111111111111&ev=PageView&noscript=1" /></noscript>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
