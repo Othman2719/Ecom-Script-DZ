@@ -94,8 +94,8 @@ const updateMeta = (name, content, attr = 'property') => {
 };
 
 const updateSEO = (p = null) => {
-    const brand = "USB كولشي فـ";
-    const baseUrl = "https://kolshi-f-usb.pages.dev";
+    const brand = "Skillio DZ";
+    const baseUrl = "https://skillio-dz.pages.dev";
     const oldSchema = document.getElementById('product-schema');
     if (oldSchema) oldSchema.remove();
 
