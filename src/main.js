@@ -32,7 +32,7 @@ const wilayasList = Object.keys(wilayasMap).sort((a, b) => {
 });
 
 // --- CONFIG ---
-const GOOGLE_SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwIHxisSF3MM8N6M6uKv8_QZiSf8n-dCGAaszr8-SfxbIlnvy6R61Bgm6npLrtAUg0/exec";
+const GOOGLE_SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxByZ-RC27U9JU8-GgBWw_L78p7VcFlCJgJfET83njTViphwFM0im7Chqoip-qI/exec";
 const COUNTRY_MAP = {
     "DZ": "الجزائر"
 };
